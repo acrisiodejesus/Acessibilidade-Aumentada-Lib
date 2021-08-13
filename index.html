@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nonstyle{
+            color: #000;
+            text-decoration: none;
+        }
+        body{
+            background: #556270; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #556270, #ff6b6b); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #556270, #ff6b6b);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+        }
+        a{
+            border: 1px solid white;
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            text-decoration: none;
+            margin: 15px;
+
+
+        }
+        a:hover{
+            border: 1px solid white;
+            color:blueviolet;
+            background-color: white;
+            font-weight: bold;
+            padding: 15px;
+            text-decoration: none;
+        }
+        
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    <p>Active a acessibilidade aumentada e navegue com a tecla tab com retorno de voz</p>
+    <button id="control-acessibilidade">Acessibilidade Aumentada</button>
+    <h1 class="TextoParaVoz " >Seja Bem Vindo ao meu site</h1>
+
+
+    <h2 class="TextoParaVoz" >Quem sou eu?</h2> 
+    <p class="TextoParaVoz">Sou um jovem programador, criador de resoluções para problemas do dia-a-dia atraves de codigos.</p> 
+    <div>
+        <h3 class="TextoParaVoz">Por que deste site?</h3>
+        <p class="TextoParaVoz">Este site é uma prova que podemos criar um mundo mais inclusivo para todos atraves de linhas de codígo!</p>
+        <img src="./foto.jpg" alt="Foto de Acrisio de Jesus - Desenvolvedor Web e Mobile" class="ImagemParaVoz"/>
+        <a class="LinkParaVoz" target="__blank" data-message="Este link leva ao Linkedin" href="https://linkedin.com/in/acrisiodejesus">Siga Meu Linkedin</a>
+    </div>
+</body>
+    <script src="./script.js" ></script>
+    <script src="./acessibilidadeaumentada.js"></script>
+</html>
