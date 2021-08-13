@@ -47,4 +47,6 @@ Para configurar imagens (`<img>`), você deve configurar a classe **ImagemParaVo
 
 ## Nota
 
-É importate que siga com atenção os passos acima para que funcione e o seu projecto tenha acessibilidade aumentada com retorno de voz, e caso tenha duvidas acesse o arquivo de exemplo.
+É importate que siga com atenção os passos acima para que funcione e o seu projecto tenha acessibilidade aumentada com retorno de voz, e caso tenha duvidas acesse o link abaixo ou faça **clone** do projecto e veja o arquivo de exemplo.
+
+[Link para exemplo real do projecto](https://acrisiodejesus.github.io/)
