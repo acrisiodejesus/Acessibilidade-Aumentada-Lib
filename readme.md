@@ -1,6 +1,6 @@
 # Projecto Acessibilidade Aumentada
 
-É um projecto com vista a ajudar a acrescentar um nivel de acessibilidade aprimorada para sites, adicionando algumas **directrizes WCAG 2.0**. O projecto insere a possibilidade de retorno de audio na navegação, de maneira facil e intuitiva, sem a necessidade de leitores de tela.
+É um projecto com vista a ajudar a acrescentar um nivel de acessibilidade aprimorada para sites, adicionando algumas **directrizes WCAG 2.0**. O projecto insere a possibilidade de retorno de audio na navegação, de maneira facíl e intuitiva, sem a necessidade de leitores de tela.
 
 **Como usar:**
 
@@ -23,7 +23,7 @@ Agora basta criar um botão ou uma ancôra (`<a>`) para activar e desactivar, pa
 
 ## Configuração dos textos
 
-Para configurar a tags que terão retorno de voz você deve colocar como classe **TextoParaVoz** para tags que têm com filhos textos como `<p>`, `<h1>`, etc. como no exemplo abaixo:
+Para configurar a tags que terão retorno de voz você deve colocar como classe **TextoParaVoz** para tags que têm como filho textos como `<p>`, `<h1>`, etc. como no exemplo abaixo:
 
 ```
 <p class="TextoParaVoz">Sou um jovem programador, criador de resoluções para problemas do dia-a-dia atraves de codigos.</p>
@@ -31,7 +31,7 @@ Para configurar a tags que terão retorno de voz você deve colocar como classe 
 
 ## Configuração da ancôras (links)
 
-Para as ancôras você deve configurar a classe **LinkParaVoz**. Alem da classe, você tambem deve colocar o atributo `data-message` e a explicação da funcionalidade da ancôra (`<a>`) como valor do atributo como demonstrado abaixo:
+Para as ancôras você deve configurar a classe **LinkParaVoz**. Além da classe, você tambem deve colocar o atributo `data-message` e a explicação da funcionalidade da ancôra (`<a>`) como valor do atributo como demonstrado abaixo:
 
 ```
 <a class="LinkParaVoz" target="__blank" data-message="Este link leva ao Linkedin" href="https://linkedin.com/in/acrisiodejesus">Siga Meu Linkedin</a>
